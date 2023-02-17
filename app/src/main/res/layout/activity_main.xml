@@ -104,7 +104,7 @@
 
         </com.google.android.material.appbar.AppBarLayout>
 
-        <com.app.androidnewsapp.utils.RtlViewPager
+        <com.app.khabardar.utils.RtlViewPager
             android:id="@+id/viewpager_rtl"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

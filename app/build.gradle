@@ -7,7 +7,7 @@ plugins {
 android {
     compileSdkVersion 32
     defaultConfig {
-        applicationId "com.app.androidnewsapp"
+        applicationId "com.app.khabardar"
         minSdkVersion 21
         targetSdkVersion 32
         versionCode 24

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.app.androidnewsapp">
+    package="com.app.khabardar">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -19,7 +19,7 @@
     </queries>
 
     <application
-        android:name="com.app.androidnewsapp.activities.MyApplication"
+        android:name="com.app.khabardar.activities.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -37,7 +37,7 @@
             android:value="@string/applovin_sdk_key" />
 
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivitySplash"
+            android:name="com.app.khabardar.activities.ActivitySplash"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true">
             <intent-filter>
@@ -46,7 +46,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.app.androidnewsapp.activities.MainActivity"
+            android:name="com.app.khabardar.activities.MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true">
             <intent-filter>
@@ -55,68 +55,68 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivityUserLogin"
+            android:name="com.app.khabardar.activities.ActivityUserLogin"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivityUserRegister"
+            android:name="com.app.khabardar.activities.ActivityUserRegister"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivityEditProfile"
+            android:name="com.app.khabardar.activities.ActivityEditProfile"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivityForgotPassword"
+            android:name="com.app.khabardar.activities.ActivityForgotPassword"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivityFullScreenImage"
+            android:name="com.app.khabardar.activities.ActivityFullScreenImage"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivityComments"
+            android:name="com.app.khabardar.activities.ActivityComments"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivityCategoryDetails"
+            android:name="com.app.khabardar.activities.ActivityCategoryDetails"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivityPrivacyPolicy"
+            android:name="com.app.khabardar.activities.ActivityPrivacyPolicy"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivityPublisherInfo"
+            android:name="com.app.khabardar.activities.ActivityPublisherInfo"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivityYoutubePlayer"
+            android:name="com.app.khabardar.activities.ActivityYoutubePlayer"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivityVideoPlayer"
+            android:name="com.app.khabardar.activities.ActivityVideoPlayer"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivityWebView"
+            android:name="com.app.khabardar.activities.ActivityWebView"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivityWebViewImage"
+            android:name="com.app.khabardar.activities.ActivityWebViewImage"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivityPostDetail"
+            android:name="com.app.khabardar.activities.ActivityPostDetail"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivityPostDetailOffline"
+            android:name="com.app.khabardar.activities.ActivityPostDetailOffline"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivityNotificationDetail"
+            android:name="com.app.khabardar.activities.ActivityNotificationDetail"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivityImageSlider"
+            android:name="com.app.khabardar.activities.ActivityImageSlider"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivityProfile"
+            android:name="com.app.khabardar.activities.ActivityProfile"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.app.androidnewsapp.activities.ActivitySearch"
+            android:name="com.app.khabardar.activities.ActivitySearch"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:windowSoftInputMode="stateVisible" />
 
@@ -129,7 +129,7 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
 
         <service
-            android:name="com.app.androidnewsapp.notification.MyFirebaseMessageService"
+            android:name="com.app.khabardar.notification.MyFirebaseMessageService"
             android:enabled="true"
             android:exported="false">
             <intent-filter>
